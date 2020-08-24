@@ -9,3 +9,81 @@ html
 body
     position: relative
     font-family: 'Roboto Slab', serif
+    background-color: #333
+
+// nav
+nav
+    text-transform: uppercase
+
+    a, i
+        color: #fff
+        transition: color .5s
+
+    i
+        padding: 10px
+
+    a:hover, i:hover
+        color: #302cf3
+
+    .navbar-brand
+        font-weight: bold
+
+    .active
+        color: #302cf3
+
+// sekcja HOME
+header
+    color: #fff
+    overflow: hidden
+
+    h1
+        text-transform: uppercase
+        padding: 5px
+        font-size: 20px
+        font-weight: bold
+
+    .home-img
+        position: relative
+        height: 100vh
+        background-image: url('/project_web/img/strona-home.jpg')
+        background-position: center
+        background-size: cover
+        background-attachment: fixed
+        z-index: 0
+
+    .home-shadow
+        position: absolute
+        width: 100%
+        height: 100%
+        background-color: rgba(0,0,0,.5)
+        z-index: -10
+
+    .home-text
+        display: flex
+        justify-content: center
+        align-items: center
+        flex-direction: column
+        height: 100%
+        width: 95%
+        text-align: center
+
+        p
+            padding: 5px
+            font-size: 13px
+
+    .btn-outline-light
+        // position: absolute
+        text-transform: uppercase
+        padding: 7px
+        font-size: 10px
+        // bottom: 50px
+
+    .fa-chevron-down
+        display: none
+        color: #fff
+        position: absolute
+        bottom: 0
+        left: 50%
+        transform: translateX(-70%)
+        font-size: 40px
+
