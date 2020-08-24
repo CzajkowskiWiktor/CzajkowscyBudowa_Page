@@ -12,5 +12,103 @@ html {
 body {
   position: relative;
   font-family: 'Roboto Slab', serif;
+  background-color: #333;
+}
+
+nav {
+  text-transform: uppercase;
+}
+
+nav a, nav i {
+  color: #fff;
+  -webkit-transition: color .5s;
+  transition: color .5s;
+}
+
+nav i {
+  padding: 10px;
+}
+
+nav a:hover, nav i:hover {
+  color: #302cf3;
+}
+
+nav .navbar-brand {
+  font-weight: bold;
+}
+
+nav .active {
+  color: #302cf3;
+}
+
+header {
+  color: #fff;
+  overflow: hidden;
+}
+
+header h1 {
+  text-transform: uppercase;
+  padding: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+header .home-img {
+  position: relative;
+  height: 100vh;
+  background-image: url("/project_web/img/strona-home.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: 0;
+}
+
+header .home-shadow {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: -10;
+}
+
+header .home-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+  width: 95%;
+  text-align: center;
+}
+
+header .home-text p {
+  padding: 5px;
+  font-size: 13px;
+}
+
+header .btn-outline-light {
+  text-transform: uppercase;
+  padding: 7px;
+  font-size: 10px;
+}
+
+header .fa-chevron-down {
+  display: none;
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-70%);
+          transform: translateX(-70%);
+  font-size: 40px;
 }
 /*# sourceMappingURL=index.css.map */
