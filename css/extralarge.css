@@ -1,3 +1,7 @@
+nav a, nav i, nav .navbar-brand {
+  font-size: 20px;
+}
+
 header h1 {
   font-size: 45px;
 }
@@ -8,6 +12,15 @@ header .home-text p {
 
 header .fa-chevron-down {
   display: block;
+  color: #fff;
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  font-size: 40px;
+  -webkit-animation: bounce 2s infinite;
+          animation: bounce 2s infinite;
 }
 
 header .btn-outline-light {

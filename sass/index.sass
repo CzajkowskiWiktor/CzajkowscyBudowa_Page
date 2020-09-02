@@ -1,3 +1,5 @@
+$active-color: #3b88ec
+
 *
     box-sizing: border-box
     margin: 0
@@ -11,11 +13,35 @@ body
     font-family: 'Roboto Slab', serif
     background-color: #333
 
+.wrapper
+    width: 80%
+    margin: 0 auto
+
+    h2
+        text-transform: uppercase
+        text-align: center
+        padding: 5px 0 0 0
+
+.underline
+    margin: 0 auto
+    width: 100px
+    height: 5px
+    background-color: #000000
+
+
+.scroll-fix:before
+    content: ''
+    display: block
+    height: 58px
+    margin-top: -58px
+
 // nav
 nav
     text-transform: uppercase
+    transition: background-color .7s
 
     a, i
+        font-size: 12px
         color: #fff
         transition: color .5s, font-weight .4s
 
@@ -24,20 +50,23 @@ nav
 
     .navbar-brand
         font-weight: bold
-        font-size: 15px
+        font-size: 12px
 
     .navbar-brand:hover
-        color: #000000
+        color: $active-color
         .fa-tools
-            color: #000000
+            color: $active-color
 
-    a:hover, i:hover
-        color: #000000
+    a:hover
+        color: $active-color
         font-weight: bold
 
     .active
-        color: #000000
+        color: $active-color
         font-weight: bold
+
+.shadow-bg
+    background-color: rgba(0, 0, 0, 0.8)
 
 // sekcja HOME
 header
@@ -46,8 +75,9 @@ header
 
     h1
         text-transform: uppercase
-        padding: 5px
-        font-size: 20px
+        text-align: center
+        padding: 10px
+        font-size: 22px
         font-weight: bold
 
     .home-img
@@ -71,26 +101,69 @@ header
         justify-content: center
         align-items: center
         flex-direction: column
-        height: 100%
+        position: absolute
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
         width: 100%
-        // text-align: center
-
         p
             padding: 5px
             font-size: 14px
 
     .btn-outline-light
-        // position: absolute
         text-transform: uppercase
         padding: 7px
         font-size: 10px
 
     .fa-chevron-down
         display: none
-        color: #fff
-        position: absolute
-        bottom: 0%
-        left: 50%
-        transform: translateX(0%, -50)
-        font-size: 40px
 
+//main sekcja
+
+#aboutus
+    .jumbotron
+        margin-bottom: 0
+        // height: 200vh
+        background-color: #ecccccc7
+
+    .text
+        display: flex
+        justify-content: center
+        align-items: flex-start
+        flex-direction: column
+
+        .info-aboutus
+            padding: 10px
+            text-align: center
+
+        .img-aboutus
+            img
+                margin-top: 15px
+                height: 200px
+                width: 100%
+    i
+        margin-top: 20px
+        font-size: 25px
+    h3
+        text-transform: uppercase
+        text-align: center
+        margin-top: 25px
+        font-size: 25px
+    h4
+        text-transform: uppercase
+        font-size: 20px
+    p
+        font-size: 15px
+
+    .hover-animation
+        transition: color .5s
+
+    .hover-animation:hover
+        color: $active-color
+
+
+// #projects
+//     div
+//         height: 50vh
+//         // width: 100%
+//         background-color: #5d5670b9

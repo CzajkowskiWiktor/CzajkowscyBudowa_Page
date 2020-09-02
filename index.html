@@ -5,17 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Czajkowscy - Wykończeniówka</title>
+    <title>Czajkowscy - Budowa</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/animate.css">
     <link rel="stylesheet" href="./css/index.css">
     <!-- break points -->
     <link rel="stylesheet" media='screen and (min-width: 576px)' href="./css/small.css">
     <link rel="stylesheet" media='screen and (min-width: 768px)' href="./css/medium.css">
     <link rel="stylesheet" media='screen and (min-width: 992px)' href="./css/large.css">
     <link rel="stylesheet" media='screen and (min-width: 1920px)' href="./css/extralarge.css">
-    <link rel="stylesheet" href="./css/animate.css">
     <script src="https://kit.fontawesome.com/2496dcef5a.js" crossorigin="anonymous"></script>
 </head>
 
@@ -29,7 +29,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ml-auto">
-                <a class="nav-item nav-link active" href="#">Home</a>
+                <a class="nav-item nav-link active" href="#home">Home</a>
                 <a class="nav-item nav-link" href="#aboutus">o nas</a>
                 <a class="nav-item nav-link" href="#projects">Projekty</a>
                 <a class="nav-item nav-link" href="#workteam">zespół</a>
@@ -51,6 +51,58 @@
         </div>
     </header>
 
+    <main>
+        <section id="aboutus" class="scroll-fix">
+            <div class="jumbotron jumbotron-fluid">
+                <div class="wrapper">
+                    <h2>o nas</h2>
+                    <div class="underline"></div>
+                    <div class="text">
+                        <div class="info-aboutus">Jesteśmy młodą, małą rodzinną firmą. Zajmujemy się przedewszystkim wykończeniem wnętrz: od malowania, kładzenia paneli az po wymianę instalacji elektrycznych czy hydraulicznych. Również jesteśmy w stanie zaprojektować i urządzić nowoczesne wnętrze. Nie boimy sie ciężkiej pracy i lubimy wyzwania!</div>
+                        <div class="img-aboutus"><img src="./img/ekipa.jpg" alt="Zdjęcie naszej rodziny, pracowników"></div>
+                    </div>
+                    <h3>nasze umiejętności</h3>
+                    <div class="row">
+                        <div class="col-sm-6 col-md-4 text-center hover-animation">
+                            <p><i class="fas fa-paint-roller"></i></p>
+                            <h4>malowanie</h4>
+                            <p>Pomalujemy każdą ścianę</p>
+                        </div>
+                        <div class="col-sm-6 col-md-4 text-center hover-animation">
+                            <p><i class="fas fa-hammer"></i></p>
+                            <h4>burzenie</h4>
+                            <p>Potrafimy zmienić rozmieszczenie ścian</p>
+                        </div>
+                        <div class="col-sm-6 col-md-4 text-center hover-animation">
+                            <p><i class="fas fa-wrench"></i></p>
+                            <h4>dokręcanie</h4>
+                            <p>Rozmieścimy rury i je porządnie dokręcimy</p>
+                        </div>
+                        <div class="col-sm-6 col-md-4 text-center hover-animation">
+                            <p><i class="fas fa-drafting-compass"></i></p>
+                            <h4>projektowanie</h4>
+                            <p>Zaprojektujemy nowoczesne wnętrze</p>
+                        </div>
+                        <div class="col-sm-6 col-md-4 text-center hover-animation">
+                            <p><i class="fas fa-ruler-combined"></i></p>
+                            <h4>precyzja</h4>
+                            <p>Naszą główną cechą jest dokładność</p>
+                        </div>
+                        <div class="col-sm-6 col-md-4 text-center hover-animation">
+                            <p><i class="fas fa-battery-full"></i></p>
+                            <h4>energia</h4>
+                            <p>Jesteśmy pełni energii!</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section id="projects">
+            <div></div>
+        </section>
+    </main>
+
 
 
     <!-- bootstrap -->
@@ -65,6 +117,7 @@
     </script>
     <script src="./js/animation.js"></script>
     <script src="./js/jquery.waypoints.min"></script>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>

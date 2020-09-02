@@ -3,10 +3,18 @@ nav .navbar-brand {
 }
 
 header h1 {
-  font-size: 30px;
+  font-size: 35px;
 }
 
 header .home-text p {
   font-size: 20px;
+}
+
+header .btn-outline-light {
+  font-size: 12px;
+}
+
+header .btn-outline-light:hover {
+  font-weight: bold;
 }
 /*# sourceMappingURL=medium.css.map */
