@@ -2,8 +2,8 @@
     "version": 3,
     "mappings": "AAAA,AACI,MADE,CACF,EAAE,CAAC;EACC,SAAS,EAAE,IAAI;CAAG;;AAF1B,AAIQ,MAJF,CAGF,UAAU,CACN,CAAC,CAAC;EACE,SAAS,EAAE,IAAI;CAAG;;AAL9B,AAOI,MAPE,CAOF,gBAAgB,CAAC;EACb,OAAO,EAAE,KAAK;CAAG;;AARzB,AAUI,MAVE,CAUF,kBAAkB,CAAC;EACf,SAAS,EAAE,IAAI;CAAG;;AAX1B,AAaI,MAbE,CAaF,kBAAkB,AAAA,MAAM,CAAC;EACrB,WAAW,EAAE,IAAI;CAAG",
     "sources": [
-        "../sass/large.sass"
+        "../sass/extralarge.sass"
     ],
     "names": [],
-    "file": "large.css"
+    "file": "extralarge.css"
 }

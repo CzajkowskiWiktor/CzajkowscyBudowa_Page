@@ -21,24 +21,35 @@ nav {
 
 nav a, nav i {
   color: #fff;
-  -webkit-transition: color .5s;
-  transition: color .5s;
+  -webkit-transition: color .5s, font-weight .4s;
+  transition: color .5s, font-weight .4s;
 }
 
 nav i {
   padding: 10px;
 }
 
-nav a:hover, nav i:hover {
-  color: #302cf3;
+nav .navbar-brand {
+  font-weight: bold;
+  font-size: 15px;
 }
 
-nav .navbar-brand {
+nav .navbar-brand:hover {
+  color: #000000;
+}
+
+nav .navbar-brand:hover .fa-tools {
+  color: #000000;
+}
+
+nav a:hover, nav i:hover {
+  color: #000000;
   font-weight: bold;
 }
 
 nav .active {
-  color: #302cf3;
+  color: #000000;
+  font-weight: bold;
 }
 
 header {
@@ -86,13 +97,12 @@ header .home-text {
       -ms-flex-direction: column;
           flex-direction: column;
   height: 100%;
-  width: 95%;
-  text-align: center;
+  width: 100%;
 }
 
 header .home-text p {
   padding: 5px;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 header .btn-outline-light {
@@ -105,10 +115,10 @@ header .fa-chevron-down {
   display: none;
   color: #fff;
   position: absolute;
-  bottom: 0;
+  bottom: 0%;
   left: 50%;
-  -webkit-transform: translateX(-70%);
-          transform: translateX(-70%);
+  -webkit-transform: translateX(0%, -50);
+          transform: translateX(0%, -50);
   font-size: 40px;
 }
 /*# sourceMappingURL=index.css.map */

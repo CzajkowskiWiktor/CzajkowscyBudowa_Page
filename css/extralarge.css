@@ -1,9 +1,9 @@
 header h1 {
-  font-size: 38px;
+  font-size: 45px;
 }
 
 header .home-text p {
-  font-size: 28px;
+  font-size: 30px;
 }
 
 header .fa-chevron-down {
@@ -11,10 +11,10 @@ header .fa-chevron-down {
 }
 
 header .btn-outline-light {
-  font-size: 15px;
+  font-size: 17px;
 }
 
 header .btn-outline-light:hover {
   font-weight: bold;
 }
-/*# sourceMappingURL=large.css.map */
+/*# sourceMappingURL=extralarge.css.map */

@@ -17,19 +17,27 @@ nav
 
     a, i
         color: #fff
-        transition: color .5s
+        transition: color .5s, font-weight .4s
 
     i
         padding: 10px
 
-    a:hover, i:hover
-        color: #302cf3
-
     .navbar-brand
+        font-weight: bold
+        font-size: 15px
+
+    .navbar-brand:hover
+        color: #000000
+        .fa-tools
+            color: #000000
+
+    a:hover, i:hover
+        color: #000000
         font-weight: bold
 
     .active
-        color: #302cf3
+        color: #000000
+        font-weight: bold
 
 // sekcja HOME
 header
@@ -64,26 +72,25 @@ header
         align-items: center
         flex-direction: column
         height: 100%
-        width: 95%
-        text-align: center
+        width: 100%
+        // text-align: center
 
         p
             padding: 5px
-            font-size: 13px
+            font-size: 14px
 
     .btn-outline-light
         // position: absolute
         text-transform: uppercase
         padding: 7px
         font-size: 10px
-        // bottom: 50px
 
     .fa-chevron-down
         display: none
         color: #fff
         position: absolute
-        bottom: 0
+        bottom: 0%
         left: 50%
-        transform: translateX(-70%)
+        transform: translateX(0%, -50)
         font-size: 40px
 
