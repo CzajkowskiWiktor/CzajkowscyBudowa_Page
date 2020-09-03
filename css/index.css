@@ -166,7 +166,8 @@ header .fa-chevron-down {
 }
 
 #aboutus .jumbotron {
-  background-color: #ecccccc7;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f2d4d4), to(#d69e9e));
+  background: linear-gradient(#f2d4d4, #d69e9e);
 }
 
 #aboutus .text {
