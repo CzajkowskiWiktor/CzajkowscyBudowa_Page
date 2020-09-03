@@ -30,4 +30,35 @@ header .btn-outline-light {
 header .btn-outline-light:hover {
   font-weight: bold;
 }
+
+.wrapper h2 {
+  font-size: 35px;
+}
+
+#aboutus .text .info-aboutus {
+  font-size: 29px;
+  width: 70%;
+}
+
+#aboutus .text .img-aboutus img {
+  height: 60vh;
+}
+
+#aboutus h3 {
+  margin-top: 40px;
+  font-size: 35px;
+  font-weight: normal;
+}
+
+#aboutus i {
+  font-size: 35px;
+}
+
+#aboutus h4 {
+  font-size: 26px;
+}
+
+#aboutus p {
+  font-size: 20px;
+}
 /*# sourceMappingURL=extralarge.css.map */

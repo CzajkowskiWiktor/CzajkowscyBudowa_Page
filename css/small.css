@@ -1,1 +1,44 @@
-/* No CSS *//*# sourceMappingURL=small.css.map */
+nav .navbar-brand {
+  font-size: 15px;
+}
+
+header h1 {
+  font-size: 32px;
+}
+
+header .home-text p {
+  font-size: 19px;
+}
+
+header .btn-outline-light {
+  font-size: 11px;
+}
+
+header .btn-outline-light:hover {
+  font-weight: bold;
+}
+
+.wrapper h2 {
+  font-size: 30px;
+}
+
+#aboutus .text .info-aboutus {
+  font-size: 25px;
+}
+
+#aboutus h3 {
+  font-size: 28px;
+}
+
+#aboutus i {
+  font-size: 27px;
+}
+
+#aboutus h4 {
+  font-size: 24px;
+}
+
+#aboutus p {
+  font-size: 17px;
+}
+/*# sourceMappingURL=small.css.map */

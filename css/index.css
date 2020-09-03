@@ -21,6 +21,7 @@ body {
 }
 
 .wrapper h2 {
+  font-size: 25px;
   text-transform: uppercase;
   text-align: center;
   padding: 5px 0 0 0;
@@ -164,9 +165,9 @@ header .fa-chevron-down {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -180,8 +181,7 @@ header .fa-chevron-down {
 
 #aboutus .text .img-aboutus img {
   margin-top: 15px;
-  height: 200px;
-  width: 100%;
+  height: 30vh;
 }
 
 #aboutus i {
@@ -193,12 +193,13 @@ header .fa-chevron-down {
   text-transform: uppercase;
   text-align: center;
   margin-top: 25px;
-  font-size: 25px;
+  font-size: 23px;
 }
 
 #aboutus h4 {
   text-transform: uppercase;
   font-size: 20px;
+  font-weight: bold;
 }
 
 #aboutus p {
@@ -206,11 +207,19 @@ header .fa-chevron-down {
 }
 
 #aboutus .hover-animation {
-  -webkit-transition: color .5s;
-  transition: color .5s;
+  -webkit-transition: color .5s, scale .5s;
+  transition: color .5s, scale .5s;
+  visibility: hidden;
 }
 
 #aboutus .hover-animation:hover {
-  color: #3b88ec;
+  color: #000000;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#projects div {
+  height: 50vh;
+  background-color: #5d5670b9;
 }
 /*# sourceMappingURL=index.css.map */
