@@ -242,6 +242,12 @@ header .fa-chevron-down {
   text-align: center;
 }
 
+#projects .one h3, #projects .two h3, #projects .three h3 {
+  font-size: 25px;
+  text-align: center;
+  padding: 20px;
+}
+
 #projects .row {
   display: -webkit-box;
   display: -ms-flexbox;

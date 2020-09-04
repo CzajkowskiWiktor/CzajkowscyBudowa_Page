@@ -47,4 +47,9 @@ header .btn-outline-light:hover {
 #aboutus p {
   font-size: 20px;
 }
+
+#projects h3 {
+  text-align: center;
+  padding: 30px;
+}
 /*# sourceMappingURL=medium.css.map */
