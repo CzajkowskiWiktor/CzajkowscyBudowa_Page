@@ -32,12 +32,12 @@ header .btn-outline-light:hover {
 }
 
 .wrapper h2 {
-  padding: 20px 0 0 0;
+  padding: 30px 0 0 0;
   font-size: 35px;
 }
 
 #aboutus .text .info-aboutus {
-  font-size: 27px;
+  font-size: 25px;
 }
 
 #aboutus .text .img-aboutus img {
@@ -60,5 +60,13 @@ header .btn-outline-light:hover {
 
 #aboutus p {
   font-size: 20px;
+}
+
+#projects .jumbotron h2 {
+  font-size: 35px;
+}
+
+#projects .carousel-inner {
+  padding: 15px;
 }
 /*# sourceMappingURL=large.css.map */

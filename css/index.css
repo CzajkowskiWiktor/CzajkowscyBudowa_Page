@@ -16,6 +16,7 @@ body {
 }
 
 .wrapper {
+  max-width: 2560px;
   width: 80%;
   margin: 0 auto;
 }
@@ -235,15 +236,17 @@ header .fa-chevron-down {
 
 #projects .jumbotron {
   background-color: #5c5e69;
+  padding: 60px 0 0 0;
 }
 
 #projects .jumbotron h2 {
   text-transform: uppercase;
   text-align: center;
+  font-size: 25px;
 }
 
 #projects .one h3, #projects .two h3, #projects .three h3 {
-  font-size: 25px;
+  font-size: 20px;
   text-align: center;
   padding: 20px;
 }
@@ -255,13 +258,19 @@ header .fa-chevron-down {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
   padding: 15px;
 }
 
-#projects .row img {
-  padding: 15px;
+#projects .card-deck .card {
+  margin-bottom: 10px;
+  background-color: #5c5e69;
+  border: none;
+}
+
+#team div {
+  height: 1500px;
 }
 /*# sourceMappingURL=index.css.map */
