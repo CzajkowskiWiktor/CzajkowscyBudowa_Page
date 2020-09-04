@@ -232,6 +232,7 @@ header .fa-chevron-down {
 
 #projects {
   color: #000;
+  overflow: hidden;
 }
 
 #projects .jumbotron {
@@ -246,7 +247,7 @@ header .fa-chevron-down {
 }
 
 #projects .one h3, #projects .two h3, #projects .three h3 {
-  font-size: 20px;
+  font-size: 22px;
   text-align: center;
   padding: 20px;
 }
@@ -270,6 +271,32 @@ header .fa-chevron-down {
   border: none;
 }
 
+#projects .card-body h5 {
+  font-style: italic;
+  text-align: center;
+  font-size: 22px;
+}
+
+#projects .card-body p {
+  font-size: 16px;
+}
+
+#help {
+  text-align: center;
+}
+
+#help .jumbotron {
+  background-color: #e4e4e4;
+}
+
+#help h2 {
+  font-size: 25px;
+}
+
+#help a {
+  text-decoration: none;
+}
+
 #team .jumbotron {
   position: relative;
   background-image: url("../img/backg.jpg");
@@ -288,6 +315,8 @@ header .fa-chevron-down {
 }
 
 #team h2 {
+  margin-top: 27px;
+  font-size: 25px;
   text-align: center;
   color: #f0f0f0;
 }
@@ -335,10 +364,82 @@ header .fa-chevron-down {
 }
 
 #team .card-text {
+  text-align: center;
   font-size: 14px;
 }
 
-#wycena div {
-  height: 70vh;
+#contact .jumbotron {
+  position: relative;
+  background-image: url("../img/cont.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  z-index: 0;
+}
+
+#contact .contact-shadow {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(3, 9, 20, 0.6);
+  z-index: -10;
+}
+
+#contact h2 {
+  margin-top: 24px;
+  color: #e4e0e0;
+  text-align: center;
+  font-weight: bold;
+}
+
+#contact .underline {
+  background-color: #d4d1d1;
+}
+
+#contact .contact-us {
+  color: #e4e0e0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#contact .contact-us .contact-item {
+  margin: 25px 0;
+}
+
+#contact .contact-us .contact-item h3 {
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+#contact .contact-us .contact-item p {
+  font-size: 15px;
+}
+
+#contact .contact-us .contact-item .social-media {
+  font-size: 25px;
+}
+
+#contact .contact-us .contact-item .social-media a {
+  padding: 10px;
+  text-shadow: 0 0 10px #000;
+}
+
+footer {
+  color: #bebcbc;
+}
+
+footer p {
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 0;
 }
 /*# sourceMappingURL=index.css.map */

@@ -173,9 +173,12 @@ header
         color: #000000
         transform: scale(1.3)
 
+//projects
 #projects
     color: #000
+    overflow: hidden
     .jumbotron
+        //background: linear-gradient(#5c5e69, #8b8e9a)
         background-color: #5c5e69
         padding: 60px 0 0 0
 
@@ -185,7 +188,7 @@ header
             font-size: 25px
     .one, .two, .three
         h3
-            font-size: 20px
+            font-size: 22px
             text-align: center
             padding: 20px
     .row
@@ -198,6 +201,25 @@ header
         margin-bottom: 10px
         background-color: #5c5e69
         border: none
+
+    .card-body
+        h5
+            font-style: italic
+            text-align: center
+            font-size: 22px
+        p
+            font-size: 16px
+
+#help
+    text-align: center
+    .jumbotron
+        background-color: #e4e4e4
+    h2
+        font-size: 25px
+    a
+        text-decoration: none
+
+
 
 //team
 #team
@@ -217,6 +239,8 @@ header
         z-index: -10
 
     h2
+        margin-top: 27px
+        font-size: 25px
         text-align: center
         color: #f0f0f0
 
@@ -250,9 +274,65 @@ header
         text-align: center
 
     .card-text
+        text-align: center
         font-size: 14px
 
-//wycena projektu
-#wycena
-    div
-        height: 70vh
+//contact
+#contact
+    .jumbotron
+        position: relative
+        background-image: url('../img/cont.jpg')
+        // background-position: top
+        background-attachment: fixed
+        background-size: cover
+        z-index: 0
+
+    .contact-shadow
+        position: absolute
+        top: 0
+        height: 100%
+        width: 100%
+        background-color: rgba(3,9,20,.6)
+        z-index: -10
+
+    h2
+        margin-top: 24px
+        color: #e4e0e0
+        text-align: center
+        font-weight: bold
+
+    .underline
+        background-color: #d4d1d1
+
+    .contact-us
+        color: #e4e0e0
+        display: flex
+        align-items: center
+        justify-content: center
+
+        .contact-item
+            margin: 25px 0
+
+            h3
+                margin-bottom: 15px
+                text-transform: uppercase
+                font-size: 20px
+                letter-spacing: 2px
+
+            p
+                font-size: 15px
+
+            .social-media
+                font-size: 25px
+
+                a
+                    padding: 10px
+                    text-shadow: 0 0 10px #000
+
+footer
+    color: #bebcbc
+    p
+        padding: 20px
+        text-align: center
+        margin-bottom: 0
+

@@ -65,4 +65,28 @@ header .btn-outline-light:hover {
   padding: 30px 0;
   font-size: 28px;
 }
+
+#projects .card-body h5 {
+  font-size: 25px;
+}
+
+#projects .card-body p {
+  font-size: 18px;
+}
+
+#help h2 {
+  font-size: 30px;
+}
+
+#help a {
+  font-size: 22px;
+}
+
+#team h2 {
+  font-size: 32px;
+}
+
+#team .card-text {
+  font-size: 15px;
+}
 /*# sourceMappingURL=medium.css.map */

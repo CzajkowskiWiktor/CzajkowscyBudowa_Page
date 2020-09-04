@@ -69,4 +69,20 @@ header .btn-outline-light:hover {
 #projects .carousel-inner {
   padding: 15px;
 }
+
+#help h2 {
+  font-size: 35px;
+}
+
+#help a {
+  font-size: 26px;
+}
+
+#team h2 {
+  font-size: 35px;
+}
+
+#team .card-text {
+  font-size: 15px;
+}
 /*# sourceMappingURL=large.css.map */
