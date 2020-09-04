@@ -270,7 +270,75 @@ header .fa-chevron-down {
   border: none;
 }
 
-#team div {
-  height: 1500px;
+#team .jumbotron {
+  position: relative;
+  background-image: url("../img/backg.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  z-index: 0;
+}
+
+#team .team-shadow {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.65);
+  z-index: -10;
+}
+
+#team h2 {
+  text-align: center;
+  color: #f0f0f0;
+}
+
+#team .underline {
+  background-color: #3b88ec;
+  margin-bottom: 25px;
+}
+
+#team .card {
+  -webkit-transition: -webkit-transform .4s;
+  transition: -webkit-transform .4s;
+  transition: transform .4s;
+  transition: transform .4s, -webkit-transform .4s;
+}
+
+#team .card img {
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#team .card i {
+  padding: 10px 20px;
+}
+
+#team .card .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#team .card:hover {
+  -webkit-transform: scale(0.96);
+          transform: scale(0.96);
+}
+
+#team .card-body {
+  height: 150px;
+}
+
+#team .card-title {
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+}
+
+#team .card-text {
+  font-size: 14px;
+}
+
+#wycena div {
+  height: 70vh;
 }
 /*# sourceMappingURL=index.css.map */
