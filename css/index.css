@@ -110,7 +110,7 @@ header h1 {
 header .home-img {
   position: relative;
   height: 100vh;
-  background-image: url("/project_web/img/strona-home.jpg");
+  background-image: url("../img/strona-home.jpg");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
