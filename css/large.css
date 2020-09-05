@@ -66,8 +66,24 @@ header .btn-outline-light:hover {
   font-size: 35px;
 }
 
-#projects .carousel-inner {
-  padding: 15px;
+#projects .jumbotron .underline {
+  margin-bottom: 10px;
+}
+
+#projects .row {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#projects .col-md-6 {
+  max-width: 75%;
+}
+
+#projects .carousel-inner img {
+  margin: 10px;
+  height: 300px;
 }
 
 #help h2 {
@@ -84,5 +100,29 @@ header .btn-outline-light:hover {
 
 #team .card-text {
   font-size: 15px;
+}
+
+@media (min-width: 1250px) {
+  #projects .row {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  #projects .carousel-inner img {
+    height: 350px;
+  }
+}
+
+@media (min-width: 1700px) {
+  #projects .row {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  #projects .carousel-inner img {
+    height: 400px;
+  }
 }
 /*# sourceMappingURL=large.css.map */

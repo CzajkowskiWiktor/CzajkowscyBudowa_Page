@@ -246,12 +246,6 @@ header .fa-chevron-down {
   font-size: 25px;
 }
 
-#projects .one h3, #projects .two h3, #projects .three h3 {
-  font-size: 22px;
-  text-align: center;
-  padding: 20px;
-}
-
 #projects .row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -259,10 +253,21 @@ header .fa-chevron-down {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
-  padding: 15px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#projects .carousel-item img {
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#projects .one h3, #projects .two h3, #projects .three h3 {
+  font-size: 22px;
+  text-align: center;
+  padding: 20px;
 }
 
 #projects .card-deck .card {
@@ -349,8 +354,8 @@ header .fa-chevron-down {
 }
 
 #team .card:hover {
-  -webkit-transform: scale(0.96);
-          transform: scale(0.96);
+  -webkit-transform: scale(0.94);
+          transform: scale(0.94);
 }
 
 #team .card-body {

@@ -186,16 +186,23 @@ header
             text-transform: uppercase
             text-align: center
             font-size: 25px
+
+    .row
+        display: flex
+        justify-content: center
+        align-items: center
+
+    //img on desktops
+    .carousel-item
+        img
+            height: 400px
+            object-fit: cover
+
     .one, .two, .three
         h3
             font-size: 22px
             text-align: center
             padding: 20px
-    .row
-        display: flex
-        justify-content: center
-        align-items: stretch
-        padding: 15px
 
     .card-deck .card
         margin-bottom: 10px
@@ -248,7 +255,7 @@ header
         background-color: $active-color
         margin-bottom: 25px
 
-    //ustal wyskosc jednakowa zdjec i coveruje
+    //ustal wyskosc jednakowa zdjec i coveruje na mobile
     .card
         transition: transform .4s
         img
@@ -263,7 +270,7 @@ header
             margin-right: 0
 
     .card:hover
-        transform: scale(.96)
+        transform: scale(.94)
 
     .card-body
         height: 150px
@@ -276,6 +283,7 @@ header
     .card-text
         text-align: center
         font-size: 14px
+
 
 //contact
 #contact
