@@ -1,3 +1,3 @@
 Project about Czajkowscy-Budowa Company
 
-Opis
+It is a web for my future (maybe?) family company. It has been done by my for fun and to improve my fron-end skills.
