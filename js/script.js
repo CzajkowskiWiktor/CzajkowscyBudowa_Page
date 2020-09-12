@@ -49,4 +49,38 @@ document.addEventListener('DOMContentLoaded', function () {
             ]
         });
       });
+
+    $(document).ready(function () {
+        $('.price-carousel').slick({
+            autoplay: true,
+            autoplaySpeed: 2000,
+            mobileFirst: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: true,
+            responsive: [
+                {
+                    breakpoint: 724,
+                    settings: {
+
+                        slidesToShow: 2
+                    }
+                },
+                {
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 3
+                    }
+                },
+                {
+                    breakpoint: 1580,
+                    settings: {
+                        autoplay: false,
+                        arrows: false,
+                        slidesToShow: 4
+                    }
+                }
+            ]
+        });
+    });
 });

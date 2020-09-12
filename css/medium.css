@@ -89,4 +89,31 @@ header .btn-outline-light:hover {
 #team .card-text {
   font-size: 15px;
 }
+
+#price .card-title {
+  font-size: 20px;
+}
+
+#price .card-title span {
+  font-size: 21px;
+}
+
+#price .card-text ul {
+  padding: 0 25px;
+  font-size: 18px;
+}
+
+#price .price-info {
+  font-size: 16px;
+}
+
+#price .card-body {
+  height: 420px;
+}
+
+@media (min-width: 823px) {
+  #price .card-body {
+    height: 400px;
+  }
+}
 /*# sourceMappingURL=medium.css.map */

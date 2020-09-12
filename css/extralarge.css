@@ -62,4 +62,25 @@ header .btn-outline-light:hover {
 #aboutus p {
   font-size: 20px;
 }
+
+#price .card-body {
+  height: 380px;
+}
+
+#price .card-title {
+  font-size: 22px;
+}
+
+#price .card-title span {
+  font-size: 23px;
+}
+
+#price .card-text ul {
+  padding: 0 10px;
+  font-size: 19px;
+}
+
+#price .price-info {
+  font-size: 20px;
+}
 /*# sourceMappingURL=extralarge.css.map */

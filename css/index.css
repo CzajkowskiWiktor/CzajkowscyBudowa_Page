@@ -373,6 +373,67 @@ header .fa-chevron-down {
   font-size: 14px;
 }
 
+#price .jumbotron {
+  background-color: #e4e4e4;
+}
+
+#price .price-cards {
+  margin-top: 25px;
+}
+
+#price .card-body {
+  height: 340px;
+  -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
+          box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
+  margin-bottom: 7px;
+  background-color: #fff;
+  -webkit-transition: -webkit-transform .3s;
+  transition: -webkit-transform .3s;
+  transition: transform .3s;
+  transition: transform .3s, -webkit-transform .3s;
+}
+
+#price .card-body a {
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+#price .card-title {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+#price .card-title span {
+  font-size: 19px;
+  color: #ecf00a;
+  text-shadow: 2px 1px #252525;
+}
+
+#price .card-text ul {
+  font-size: 14px;
+  padding: 0 5px;
+  list-style: none;
+}
+
+#price .card-text ul li {
+  padding: 3px 0px;
+}
+
+#price .price-info {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+#price .slick-prev:before, #price .slick-next:before {
+  color: darkgrey;
+}
+
+#price .card-body:hover {
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
 #contact .jumbotron {
   position: relative;
   background-image: url("../img/cont.jpg");
