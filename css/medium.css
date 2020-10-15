@@ -111,6 +111,10 @@ header .btn-outline-light:hover {
   height: 420px;
 }
 
+#reviews .jumbotron h2 {
+  font-size: 32px;
+}
+
 @media (min-width: 823px) {
   #price .card-body {
     height: 400px;

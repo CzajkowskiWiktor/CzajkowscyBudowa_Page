@@ -36,7 +36,7 @@
                 <a class="nav-item nav-link" href="#projects">Projekty</a>
                 <a class="nav-item nav-link" href="#team">zespół</a>
                 <a class="nav-item nav-link" href="#price">usługi</a>
-                <a class="nav-item nav-link" href="#contact">kontakt</a>
+                <a class="nav-item nav-link" href="#email">kontakt</a>
             </div>
         </div>
     </nav>
@@ -423,7 +423,7 @@
                     <div class="card-text">
                       <ul>
                         <li>Zaprojektowanie wnętrza budynku zgodnie z preferencjami</li>
-                        <li>Profesjonalny projekt w programie</li>
+                        <li>Profesjonalny projekt</li>
                         <li>Schemat elektryczny w cenie</li>
                       </ul>
                     </div>
@@ -452,6 +452,87 @@
               <div class="price-text text-center">
                 <p class="price-info">Wybierz interesujące cię pakiety do swojego remontu. Aby dowiedzięć się dokładnie o opcjach wchodzących w skład pakietu, <a href="#contact">skontaktuj się</a> z nami! Cena zależy od indywidualnych potrzeb i warunków remontu.</p>
               </div>
+            </div>
+          </div>
+        </section>
+        <section id="reviews">
+          <div class="jumbotron jumbotron-fluid">
+            <div class="wrapper">
+              <h2 class="reviews-title">Opinie</h2>
+              <div class="underline"></div>
+              <div class="reviews__boxes">
+                <div class="reviews__box">
+                    <div class="reviews__box-img">
+                        <img src="./img/reviews/attractive-1869761_640.jpg" alt="Anna Nowak">
+                    </div>
+                    <div class="reviews__box-info">
+                        <div class="reviews__box-quote"> <i class="fas fa-quote-right"></i> </div>
+                        <p class="reviews__box-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Aspernatur voluptas velit dignissimos sint optio facilis nam unde exercitationem sunt
+                            voluptatibus?</p>
+                        <strong>Anna Nowak</strong>
+                    </div>
+                </div>
+                <div class="reviews__box">
+                    <div class="reviews__box-img">
+                        <img src="./img/reviews/happy-1836445_640.jpg" alt="Jan Kowalski">
+                    </div>
+                    <div class="reviews__box-info">
+                        <div class="reviews__box-quote"> <i class="fas fa-quote-right"></i> </div>
+                        <p class="reviews__box-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Aspernatur voluptas velit dignissimos sint optio facilis nam unde exercitationem sunt
+                            voluptatibus?</p>
+                        <strong>Jan Kowalski</strong>
+                    </div>
+                </div>
+                <div class="reviews__box">
+                    <div class="reviews__box-img">
+                        <img src="./img/reviews/winters-1919143_640.jpg" alt="Joanna Kowalczyk">
+                    </div>
+                    <div class="reviews__box-info">
+                        <div class="reviews__box-quote"> <i class="fas fa-quote-right"></i> </div>
+                        <p class="reviews__box-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Aspernatur voluptas velit dignissimos sint optio facilis nam unde exercitationem sunt
+                            voluptatibus?</p>
+                        <strong>Joanna Kowalczyk</strong>
+                    </div>
+                </div>
+                <div class="reviews__box">
+                    <div class="reviews__box-img">
+                        <img src="./img/reviews/woman-1439909_640.jpg" alt="Oliwia Dopierała">
+                    </div>
+                    <div class="reviews__box-info">
+                        <div class="reviews__box-quote"> <i class="fas fa-quote-right"></i> </div>
+                        <p class="reviews__box-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Aspernatur voluptas velit dignissimos sint optio facilis nam unde exercitationem sunt
+                            voluptatibus?</p>
+                        <strong>Oliwia Dopierała</strong>
+                    </div>
+                </div>
+            </div>
+            </div>
+          </div>
+        </section>
+        <section id="email">
+          <div class="jumbotron jumbotron-fluid">
+            <div class="wrapper">
+              <h2>Napisz do nas</h2>
+              <div class="underline"></div>
+              <form class="email email__form">
+                <div class="email__form-top">
+                    <label for="name" class="email__form-label">Imię i nazwisko</label>
+                    <input type="text" class="email__form-input" id="name">
+
+                    <label for="email" class="email__form-label">Adres e-mail:</label>
+                    <input type="text" class="email__form-input" id="email">
+                </div>
+
+                <label for="msg" class="email__form-label">Wiadomość</label>
+                <textarea id="msg" class="email__form-textarea"></textarea>
+
+                <button type="submit" class="email__form-btn btn-special-animation">Wyślij</button>
+            </form>
+
             </div>
           </div>
         </section>
@@ -489,7 +570,7 @@
     </main>
     <!-- stopka -->
     <footer>
-      <p> &copy; 2020 Czajkowscy - Budowa</p>
+      <p class="footer_bottom-text"> &copy; <span class="footer__year"></span> Czajkowscy - Budowa</p>
     </footer>
 
     <!-- bootstrap -->

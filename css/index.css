@@ -16,7 +16,7 @@ body {
 }
 
 .wrapper {
-  max-width: 2560px;
+  max-width: 1400px;
   width: 80%;
   margin: 0 auto;
 }
@@ -377,6 +377,10 @@ header .fa-chevron-down {
   background-color: #e4e4e4;
 }
 
+#price .jumbotron .underline {
+  background-color: #3b88ec;
+}
+
 #price .price-cards {
   margin-top: 25px;
 }
@@ -432,6 +436,138 @@ header .fa-chevron-down {
 #price .card-body:hover {
   -webkit-transform: scale(0.95);
           transform: scale(0.95);
+}
+
+#reviews .jumbotron {
+  background-color: #5c5e69;
+}
+
+#reviews .jumbotron h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 25px;
+  color: #f0f0f0;
+}
+
+#reviews .jumbotron .underline {
+  background-color: #3b88ec;
+}
+
+#reviews .reviews__boxes {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+#reviews .reviews__box {
+  position: relative;
+  margin: 30px;
+  padding: 30px;
+  border-radius: 8px;
+  -webkit-box-shadow: 3px 3px 10px #2e2e2e2e;
+          box-shadow: 3px 3px 10px #2e2e2e2e;
+  -webkit-transition: -webkit-transform .3s;
+  transition: -webkit-transform .3s;
+  transition: transform .3s;
+  transition: transform .3s, -webkit-transform .3s;
+  background-color: #fff;
+}
+
+#reviews .reviews__box:hover {
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+#reviews .reviews__box-img {
+  position: absolute;
+  top: 8%;
+  left: 75%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+#reviews .reviews__box-img img {
+  width: 80px;
+  height: 80px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+}
+
+#reviews .reviews__box-quote {
+  margin-bottom: 10px;
+  font-size: 30px;
+  color: #3b88ec;
+}
+
+#reviews .reviews__box-text {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #000;
+}
+
+#email .underline {
+  background-color: #3b88ec;
+}
+
+#email .email {
+  margin-top: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+#email .email__form, #email .email__form-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#email .email__form-label {
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+#email .email__form-input {
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+#email .email__form-textarea {
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  max-width: 100%;
+  min-width: 100%;
+  width: 100%;
+  min-height: 50px;
+  max-height: 250px;
+}
+
+#email .email__form-btn {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  padding: 10px;
+  width: 100%;
+  max-width: 300px;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  background-color: #3b88ec;
+  -webkit-transition: background-color .3s;
+  transition: background-color .3s;
+  cursor: pointer;
+}
+
+#email .email__form-btn:hover {
+  background-color: #0044ff;
 }
 
 #contact .jumbotron {

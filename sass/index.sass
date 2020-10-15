@@ -14,7 +14,8 @@ body
     background-color: #333
 
 .wrapper
-    max-width: 2560px
+    // max-width: 2560px
+    max-width: 1400px
     width: 80%
     margin: 0 auto
 
@@ -288,6 +289,8 @@ header
 #price
     .jumbotron
         background-color: #e4e4e4
+        .underline
+            background-color: $active-color
 
     .price-cards
         margin-top: 25px
@@ -329,6 +332,111 @@ header
 
     .card-body:hover
         transform: scale(.95)
+
+//reviews
+#reviews
+    .jumbotron
+        background-color: #5c5e69
+        h2
+            text-transform: uppercase
+            text-align: center
+            font-size: 25px
+            color: #f0f0f0
+        .underline
+            background-color: $active-color
+
+    .reviews
+        &__boxes
+            margin-top: 30px
+            margin-bottom: 40px
+
+        &__box
+            position: relative
+            margin: 30px
+            padding: 30px
+            border-radius: 8px
+            box-shadow: 3px 3px 10px #2e2e2e2e
+            transition: transform .3s
+            background-color: #fff
+
+            &:hover
+                transform: scale(0.95)
+
+        &__box-img
+            position: absolute
+            top: 8%
+            left: 75%
+            transform: translate(-50%, -50%)
+
+            img
+                width: 80px
+                height: 80px
+                object-fit: cover
+                border-radius: 50%
+
+        &__box-quote
+            margin-bottom: 10px
+            font-size: 30px
+            color: $active-color
+
+        &__box-text
+            margin-bottom: 10px
+            font-size: 14px
+            color: #000
+
+//email
+#email
+    .underline
+        background-color: $active-color
+    .email
+        margin-top: 20px
+        position: relative
+        // background-color: $light-white
+        overflow: hidden
+
+        &__form, &__form-top
+            display: flex
+            flex-direction: column
+
+        &__form-label
+            margin-bottom: 10px
+            text-transform: uppercase
+
+        &__form-input
+            margin-bottom: 20px
+            padding: 10px 15px
+            border: none
+            border-radius: 8px
+            font-size: 16px
+
+        &__form-textarea
+            margin-bottom: 20px
+            padding: 10px 15px
+            border: none
+            border-radius: 8px
+            font-size: 16px
+            max-width: 100%
+            min-width: 100%
+            width: 100%
+            min-height: 50px
+            max-height: 250px
+
+        &__form-btn
+            align-self: flex-end
+            padding: 10px
+            width: 100%
+            max-width: 300px
+            color: white
+            border: none
+            border-radius: 8px
+            background-color: $active-color
+            transition: background-color .3s
+            cursor: pointer
+
+            &:hover
+                background-color: #0044ff
+
+
 
 //contact
 #contact
